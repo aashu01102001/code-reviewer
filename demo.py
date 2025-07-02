@@ -1,4 +1,4 @@
 def add(a, b):
-    return a / b  # testing division
+    return a ** b  # testing exponentiation
 
-print(add(10, 2))
+print(add(2, 3))
