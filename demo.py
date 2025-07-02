@@ -1,4 +1,4 @@
 def add(a, b):
-    return a / b  # testing division this time
+    return a ** b  # testing power
 
-print(add(8, 4))
+print(add(2, 3))
