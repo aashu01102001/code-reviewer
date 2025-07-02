@@ -1,4 +1,3 @@
+# create or edit demo.py
 def add(a, b):
-    return a + b
-
-print(add(2, 3))
+    return a - b   # changed for testing
