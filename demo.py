@@ -1,4 +1,2 @@
 def add(a, b):
-    return a ** b  # testing exponentiation
-
-print(add(2, 3))
+    return a ** b  # power as test
