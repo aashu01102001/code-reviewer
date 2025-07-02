@@ -1,4 +1,4 @@
 def add(a, b):
-    return a / b  # testing division
-
-print(add(10, 2))
+    if b == 0:
+        return None  # or raise an error
+    return a / b
