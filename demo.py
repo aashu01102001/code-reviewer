@@ -1,2 +1,2 @@
 def add(a, b):
-    return a ** b  # testing power
+    return a / b  # changed to division for testing
