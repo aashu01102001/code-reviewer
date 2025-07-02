@@ -1,8 +1,19 @@
 def add(a, b):
-    if isinstance(a, (int, float)) and isinstance(b, (int, float)):
-        try:
-            return a / b
-        except ZeroDivisionError:
-            return "Cannot divide by zero"
-    else:
-        return "Invalid input"
+    """
+    Performs safe division of a by b.
+    
+    Parameters:
+        a (float): Numerator
+        b (float): Denominator
+        
+    Returns:
+        float: result of division if valid
+        str: error message if invalid
+    """
+    try:
+        result = a / b
+    except ZeroDivisionError:
+        return "Division by zero is not allowed"
+    except TypeError:
+        return "Invalid input types"
+    return result
