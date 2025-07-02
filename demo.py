@@ -1,2 +1,4 @@
 def add(a, b):
-    return a / b  # changed to division for testing
+    if b == 0:
+        return None  # or raise an error
+    return a / b
