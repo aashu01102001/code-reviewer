@@ -1,4 +1,4 @@
 def add(a, b):
-    return a * b  # now multiplication
+    return a / b  # testing division this time
 
-print(add(3, 4))
+print(add(8, 4))
