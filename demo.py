@@ -1,6 +1,4 @@
 def add(a, b):
-    try:
-        result = a / b
-    except ZeroDivisionError:
-        return "division by zero error"
-    return result
+    if b == 0:
+        raise ValueError("b cannot be zero for division")
+    return round(a / b, 2)  # round to 2 decimal places
